@@ -1203,10 +1203,10 @@ def update_chart(selected_analysis):
 # ================================
 
 if __name__ == '__main__':
-    print("🚀 Iniciando aplicación de análisis de rendimiento...")
-    print("🌐 Abrir en el navegador: http://127.0.0.1:8050")
-    print("📊 La aplicación incluye análisis completo ANTES vs DESPUÉS")
-    print("📈 Seleccione diferentes opciones para explorar los datos")
+    print("*** Iniciando aplicación de análisis de rendimiento ***")
+    print("Abrir en el navegador: http://127.0.0.1:8050")
+    print("La aplicación incluye análisis completo ANTES vs DESPUÉS")
+    print("Seleccione diferentes opciones para explorar los datos")
     
     # Ejecutar la aplicación Dash
     app.run(debug=True, port=8050)
